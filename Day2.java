@@ -1,18 +1,10 @@
 public class Main {
     
     public static void main(String[] args) {
-        
-      int umur = 20;
-        char kelamin = 'l';
-        double tinggi = 170.0;
-        float berat = 60.0f;
-        
-        String nama = "Muhammad Muslimin";
-        
-        System.out.println("nama saya" + nama);
-        System.out.println("umur saya" + umur);
-        System.out.println("tinggi aku" + tinggi);
-        System.out.println("berat saya" + berat);
+      
+      System.out.println("Tempat Lahir : Balikpapan"); // fungsinya mencetaktu tulisan ke layar dan pindah baris baru
+      System.out.print("Alamat       : Mamuju "); // fungsinya menampilkan tulisan di layar, dan kode selanjutnya akan di tulis di sebelahnya. bukan di baris baru
+      System.out.printf("No. Telepon    : %s%n", "0857—5675—6187"); // fungsinya menampilkan teks dengan format terstruktur mencetak nomor telpon yang di berikan, lalu otomatis pindah ke garis baru
         
     }
     
